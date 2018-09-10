@@ -99,3 +99,8 @@ cat > composer.json <<- _EOF_
 _EOF_
 
 composer diagnose
+
+
+## Acessando o container
+
+    ./shell.sh
