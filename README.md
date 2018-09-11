@@ -104,3 +104,9 @@ composer diagnose
 ## Acessando o container
 
     ./shell.sh
+
+## Acessando o MySQL via terminal com a visualização das tabelas
+
+    mysql -h 'mysql' -u 'root' -p 'teste' -e "\
+       SHOW TABLES; \
+    "
